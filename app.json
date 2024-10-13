@@ -11,6 +11,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["node_modules/@expo-google-fonts/roboto/Roboto_700Bold.ttf", "./assets/fonts/Roboto-Regular.ttf"]
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
